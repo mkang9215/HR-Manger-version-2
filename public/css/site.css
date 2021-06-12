@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Playfair;
+  src: url('PlayfairDisplay-Medium.ttf');
+}
+@font-face {
+  font-family: RobotoSlab;
+  src: url('RobotoSlab-Regular.ttf');
+}
+
+body {
+  background-image: url('../images/image.jpg');
+  background-size: cover;
+  color: Maroon;
+  font-size: large;
+}
+
+.home {
+  font-size: 110%;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+h1, h2 {
+  font-family: Playfair, sans-serif;
+}
+
+nav {
+  background-color: Linen !important;
+  font-family: RobotoSlab, Roboto;
+}
+
+a {
+  color: MediumVioletRed !important;
+}
+a:hover {
+  color: DeepPink !important;
+}
+.btn {
+  color: white !important;
+}
+  
